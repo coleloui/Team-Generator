@@ -115,7 +115,6 @@ const main = async () => {
         again = answerSetTwo.again;
     } while (again == true);
     const html = render(employeeArray);
-    console.log(html);
     fs.writeFileSync(outputPath, html, "utf8");
 };
 

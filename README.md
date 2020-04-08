@@ -23,6 +23,8 @@ The user will need to init and install inquirer to use this generator
 ## Usage for My Project
 The use of this project is to make it fast and easy for users to create team profile.
 
+![generator](./photo/Team.png)
+
 ---
 
 ## Contributors and Help
