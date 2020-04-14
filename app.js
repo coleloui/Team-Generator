@@ -10,9 +10,13 @@ const outputPath = path.join(OUTPUT_DIR, "team.html");
 
 const render = require("./lib/htmlRenderer");
 
+const dir = './output';
+
 const employeeArray = []
 let answerSetTwo;
 let again;
+
+
 
 const questionSetOne = [{
         type: "input",
@@ -114,8 +118,15 @@ const main = async () => {
         employeeArray.push(employee);
         again = answerSetTwo.again;
     } while (again == true);
+
+    if (!fs.existsSync(dir)){
+        fs.mkdirSync(dir);
+    }
     const html = render(employeeArray);
     fs.writeFileSync(outputPath, html, "utf8");
+
+    
+    ;
 };
 
 main();
