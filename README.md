@@ -2,7 +2,7 @@
 
 
 ## Description
-This project is to make a comprehensive README for repositorys on GitHub
+This project is used to make a Team Profile
 
 ---
 
@@ -21,7 +21,7 @@ The user will need to init and install inquirer to use this generator
 ---
 
 ## Usage for My Project
-The use of this project is to make it fast and easy for users to create team profile.
+The use of this project is to make it fast and easy for users to create Team Profile.
 
 ![generator](./photo/Team.png)
 
